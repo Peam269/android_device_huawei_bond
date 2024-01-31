@@ -19,11 +19,11 @@
 <device name="Android">
   <!-- All values are in mA except as noted -->
   <item name="none">0</item>
-  <item name="screen.on">103</item> <!-- min brite -->
+  <item name="screen.on.display0">103</item> <!-- min brite -->
   <item name="bluetooth.active">124</item>
   <item name="bluetooth.on">1.2</item>
   <item name="bluetooth.at">1.2</item> <!-- TBD -->
-  <item name="screen.full">460</item> <!-- backlight 16 leds -->
+  <item name="screen.full.display0">460</item> <!-- backlight 16 leds -->
   <item name="wifi.on">0.4</item>
   <item name="wifi.active">405</item>
   <item name="wifi.scan">138</item>
