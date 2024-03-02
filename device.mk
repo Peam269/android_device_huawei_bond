@@ -21,6 +21,10 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/rootdir/etc/bond.rc:$(TARGET_COPY_OUT_ODM)/etc/init/bond.rc
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(DEVICE_PATH)/overlay
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)
