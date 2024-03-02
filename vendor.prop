@@ -1,0 +1,6 @@
+#
+# vendor.prop for bond
+#
+
+# Bluetooth
+bluetooth.device.default_name=Honor 7X
