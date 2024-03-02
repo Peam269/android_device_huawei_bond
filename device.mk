@@ -10,6 +10,9 @@ DEVICE_PATH := device/huawei/bond
 # Inherit from hi6250-9-common
 $(call inherit-product, device/huawei/hi6250-9-common/common.mk)
 
+# Inherit the proprietary files
+$(call inherit-product, vendor/huawei/bond/bond-vendor.mk)
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
